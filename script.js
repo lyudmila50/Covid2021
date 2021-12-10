@@ -8,9 +8,9 @@ const getPaises = async()=>{
   const nuevasMuertes= miPaisito.NewDeaths;
   const totalMuertes= miPaisito.TotalDeaths;
 
-  document.getElementsByClassName("miDiv").innerHTML('<p>${casosNuevos}</p>');
+  document.getElementsByClassName("miDiv").innerHTML ("<p>${casosNuevos}</p>");
   document.getElementsByClassName("miDiv").innerHTML('<p>${totalConfirmado}</p>');
-  document.getElementsByClassName("miDiv").innerHTML('<p>${nuevasMuertes}</p>');
+ document.getElementsByClassName("miDiv").innerHTML('<p>${nuevasMuertes}</p>');
   document.getElementsByClassName("miDiv").innerHTML('<p>${totalMuertes}</p>');
 
   await getPaises()
