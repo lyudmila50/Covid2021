@@ -1,0 +1,21 @@
+body { 
+    background-color:rgb(141, 247, 99);
+}
+.buscar{
+    margin-top: 100px;
+}
+
+.titulo{
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+button{
+    margin-left: 400px;
+    
+}
+
+p{
+
+    color: #000;
+}
